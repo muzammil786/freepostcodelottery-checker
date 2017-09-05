@@ -1,0 +1,18 @@
+{
+  "name": "free-postcode-lottery",
+  "version": "0.0.1",
+  "description": "Checks for daily postcode lottery at https://freepostcodelottery.com",
+  "scripts": {
+  	"preinstall": "npm install --global --production windows-build-tools",
+    "start": "node app/main.js"
+  },
+  "repository": "",
+  "author": "Muzammil Shahbaz <muzammil.shahbaz@gmail.com>",
+  "dependencies": {
+    "nodemailer": "^4.0.1",
+    "google-auth-library": "^0.10.0",
+    "dv": "~1.10.1",
+    "xoauth2": "^1.2.0",
+    "request": "~2.79.0"
+  }
+}
